@@ -13,6 +13,26 @@ body {
   background-size: cover;
 }
 
+header {
+  background: whitesmoke;
+    border-radius: 22px;
+    padding: 10px;
+}
+
+footer {
+  text-align: center;
+}
+.flex-body {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+
+footer > a svg {
+  width: 40px;
+}
+
  .flex-body {
   color: black;
   display: flex;

@@ -1,10 +1,10 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "name": "HTML5 Dialog Experiment",
+  "version": "0.0.2",
+  "description": "An accessible and fun dialog experiment",
+  "keywords": "HTML5",
   "license": "",
-  "author": "",
+  "author": "Morgan Murrah",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
