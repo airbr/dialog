@@ -7,6 +7,15 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+output:not(:empty) {
+  background: whitesmoke;
+  padding: 22px;
+}
+
+dialog {
+  border: 0px;
+  border-radius: 10px;
+}
 
 body {
   background-image: url(../img/chairs.jpg);
@@ -48,6 +57,7 @@ html, body {
 }
 
 .styled {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
   cursor: pointer;
   font-family: Verdana, sans-serif;
   border: 0;

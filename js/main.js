@@ -20,7 +20,7 @@ showButton.addEventListener("click", () => {
   favDialog.showModal();
 });
 
-// "Favorite animal" input sets the value of the submit button
+// input sets the value of the submit button
 selectEl.addEventListener("change", (e) => {
   confirmBtn.value = selectEl.value;
 });
@@ -29,9 +29,11 @@ selectEl.addEventListener("change", (e) => {
 favDialog.addEventListener("close", (e) => {
   outputBox.value =
     favDialog.returnValue === "default"
-      ? "No return value."
-      : `You chose: ${favDialog.returnValue}.`; // Have to check for "default" rather than empty string
-    });
+      ? "Nothing chosen."
+      : `${favDialog.returnValue !== '' ? 'You chose: '+favDialog.returnValue : ''}`; // Have to check for "default" rather than empty string
+
+});
+
 
 // Prevent the "confirm" button from the default behavior of submitting the form, and close the dialog with the `close()` method, which triggers the "close" event.
 confirmBtn.addEventListener("click", (event) => {
