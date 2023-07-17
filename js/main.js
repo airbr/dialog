@@ -15,6 +15,14 @@ const outputBox = document.querySelector("output");
 const selectEl = favDialog.querySelector("select");
 const confirmBtn = favDialog.querySelector("#confirmBtn");
 
+
+selectEl.addEventListener('keydown',function(event){
+  if(event.key === 'Enter'){
+    event.preventDefault();
+    return false;
+  }
+});
+
 // "Show the dialog" button opens the <dialog> modally
 showButton.addEventListener("click", () => {
   favDialog.showModal();
