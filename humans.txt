@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Morgan Murrah
 
 # THANKS
 
-    <name>
+    MDN Web Docs
 
 # TECHNOLOGY COLOPHON
 
